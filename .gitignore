@@ -1,0 +1,76 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/*
+
+*.iml
+*.ipr
+*.iws
+
+out/
+
+# =========================
+# Gradle
+# =========================
+
+.gradle/
+build/
+**/build/
+
+# Gradle Wrapper (обязательно хранить в Git)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# =========================
+# Java
+# =========================
+
+*.class
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Test artifacts
+# =========================
+
+allure-results/
+allure-report/
+
+screenshots/
+downloads/
+
+# =========================
+# IDE caches
+# =========================
+
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+
+# =========================
+# Environment files
+# =========================
+
+.env
+.env.*
+
+# =========================
+# Crash dumps
+# =========================
+
+hs_err_pid*
+replay_pid*
+*.hprof
